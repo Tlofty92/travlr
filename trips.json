@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Beach Paradise",
+    "description": "Enjoy the waves and sunshine on the Beach Paradise trip to Hawaii!",
+    "location": "Hawaii",
+    "startDate": "2025-08-15",
+    "duration": "7 days",
+    "price": 1200,
+    "image": "beach.jpg"
+  },
+  {
+    "name": "Mountain Adventure",
+    "description": "Trek and explore the Rockies in the Mountain Adventure trip to Colorado!",
+    "location": "Colorado",
+    "startDate": "2025-09-05",
+    "duration": "5 days",
+    "price": 900,
+    "image": "mountain.jpg"
+  },
+  {
+    "name": "City Lights",
+    "description": "Experience urban wonders and culture on the City Lights trip to New York City!",
+    "location": "New York City",
+    "startDate": "2025-07-30",
+    "duration": "4 days",
+    "price": 1100,
+    "image": "city.jpg"
+  }
+]
