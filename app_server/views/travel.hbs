@@ -1,0 +1,21 @@
+{{> header}}
+<h1>Travel Opportunities</h1>
+<ul>
+  {{#each trips}}
+    <li>
+      <h2>{{name}}</h2>
+      <p>{{description}}</p>
+      <p>Location: {{location}}</p>
+      <p>Start Date: {{startDate}}</p>
+      <p>Duration: {{duration}}</p>
+      <p>Price: ${{price}}</p>
+
+      {{#if image}}
+        <a href="/api/trips/{{code}}">
+          <img src="/images/{{image}}" alt="{{name}}" style="max-width:200px;">
+        </a>
+      {{/if}}
+    </li>
+  {{/each}}
+</ul>
+{{> footer}}
